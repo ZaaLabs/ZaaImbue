@@ -11,10 +11,6 @@
 A dead-simple injection system for for Flash. Brought to you from the 
 awesome guys over at [ZaaLabs](http://zaalabs.com).
 
-Example
--------
-<script src="https://gist.github.com/870174.js"> </script>
-
 License
 -------
 
