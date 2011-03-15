@@ -162,3 +162,21 @@ package com.zaalabs.imbue
         }
     }
 }
+
+/**
+ * Simple Class for holding Injection information
+ */
+class InjectionTarget
+{
+    public var property:String;
+    public var definition:Class;
+    public var uri:String;
+}
+
+/**
+ * Simple Class for holding Post Injection information
+ */
+class PostInjectionTarget
+{
+    public var method:String;
+}
