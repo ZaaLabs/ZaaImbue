@@ -1,7 +1,14 @@
+/*******************************************************************************
+ * ZaaImbue
+ * Copyright (c) 2011 ZaaLabs, Ltd.
+ * For more information see http://www.zaalabs.com
+ *
+ * This file is licensed under the terms of the MIT license, which is included
+ * in the license.txt file at the root directory of this library.
+ ******************************************************************************/
 package
 {
     import com.zaalabs.imbue.IInjector;
-
     import com.zaalabs.imbue.Injector;
 
     import flash.display.Sprite;
@@ -34,8 +41,8 @@ package
         public function onPostInject():void
         {
             trace("We are all done injecting, now we can use our instance!");
-            trace("Name of first injected instance:",myFirstInjectedInstance.name);
-            trace("Name of second injected instance:",mySecondInjectedInstance.name)
+            trace("Name of first injected instance:", myFirstInjectedInstance.name);
+            trace("Name of second injected instance:", mySecondInjectedInstance.name)
         }
 
     }
